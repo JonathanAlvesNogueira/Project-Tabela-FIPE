@@ -6,3 +6,16 @@ CREATE TABLE IF NOT EXISTS TABELA_FIPE (
     MODELO TEXT NOT NULL,
     ANO TEXT NOT NULL
 );
+
+CREATE TABLE IF NOT EXISTS VALORES_FIPE (
+    ID INT AUTO_INCREMENT PRIMARY KEY,
+    `Mês de referência` VARCHAR(100) NOT NULL,
+    `Código Fipe` VARCHAR(20) NOT NULL,
+    `Marca` VARCHAR(100) NOT NULL,
+    `Modelo` VARCHAR(255) NOT NULL,
+    `Ano Modelo` VARCHAR(50) NOT NULL,
+    `Autenticação` VARCHAR(50),
+    `Data da consulta` VARCHAR(100),
+    `Preço Médio` VARCHAR(50),
+    `Mês` VARCHAR(50) NOT NULL
+);
