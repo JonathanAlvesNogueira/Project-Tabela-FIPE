@@ -17,5 +17,6 @@ CREATE TABLE IF NOT EXISTS VALORES_FIPE (
     `Autenticação` VARCHAR(50),
     `Data da consulta` VARCHAR(100),
     `Preço Médio` VARCHAR(50),
-    `Mês` VARCHAR(50) NOT NULL
+    `Mês` VARCHAR(50) NOT NULL,
+    UNIQUE KEY uq_veiculo_mes (`Código Fipe`, `Mês`)
 );
