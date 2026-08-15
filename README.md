@@ -58,6 +58,12 @@ Project-Tabela-FIPE/
 
 ---
 
+## Créditos
+
+- **Dados pré-extraídos (`dados_ja_extraidos/`)** — arquivos mensais de preços FIPE (janeiro a agosto/2026), com o respectivo código de mapeamento em `analitico_ml.ipynb`, foram extraídos e exportados por [**alanwgt**](https://github.com/alanwgt). Toda a coleta, mapeamento e exportação desses arquivos é de autoria dele; este repositório apenas consome e analisa esses dados.
+
+---
+
 ## Como executar
 
 ### Pré-requisitos
